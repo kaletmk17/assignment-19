@@ -63,3 +63,64 @@ body {
         margin: 0.5rem 0;
     }
 
+    @media only screen and (min-width: 1200px) {
+        .content {
+            padding: 25px;
+        }
+
+        .heading {
+            font-size: 32px;
+        }
+
+        .card {
+            width: 25%;
+        }
+        @media only screen and (min-width: 1200px) {
+            .content {
+                padding: 25px;
+            }
+    
+            .heading {
+                font-size: 32px;
+            }
+    
+            .card {
+                width: 25%;
+            }
+            @media only screen and (min-width: 768px) and (max-width: 991px) {
+                .content {
+                    padding: 20px;
+                }
+        
+                .heading {
+                    font-size: 24px;
+                }
+        
+                .card {
+                    width: 45%;
+                }
+                @media only screen and (min-width: 600px) and (max-width: 767px) {
+                    .content {
+                        padding: 15px;
+                    }
+            
+                    .heading {
+                        font-size: 19px;
+                    }
+            
+                    .card {
+                        width: 80%;
+                    }
+                    @media only screen and (max-width: 599px) {
+                        .content {
+                            padding: 10px;
+                        }
+                
+                        .heading {
+                            font-size: 16px;
+                        }
+                
+                        .card {
+                            width: 90%;
+                        }
+                
